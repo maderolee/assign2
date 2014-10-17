@@ -131,7 +131,7 @@ void draw() {
     life--;
     gameState = FROG_DIE;
     }
-    //car2 hit
+    //car2 hitt
     if(frogCX<leftCar2X+leftCar2W&&frogCX>leftCar2X
     &&frogCY<leftCar2Y+leftCar2H&&frogCY>leftCar2Y){
     image(imgDeadFrog, frogX, frogY);
